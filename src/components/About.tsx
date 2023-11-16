@@ -2,8 +2,8 @@ export function About() {
     return (
         <>
             <div id="about" className="flex flex-col justify-center p-8">
-                <h2 className=" text-2xl text-blue-600">SHIFOXONA HAQIDA</h2>
-                <h1 className=" text-xl">Sirdaryo viloyat asab va ruxiy kasalliklar dispanseri
+                <h2 className=" text-2xl text-blue-600">ILMIY MARKAZ HAQIDA</h2>
+                <h1 className=" text-xl">Respublika shoshilinch tez yordam ilmiy markaz Sirdaryo viloyat filiali
                 </h1>
                 <ul className="text-gray-500 content-center">
                     <li>

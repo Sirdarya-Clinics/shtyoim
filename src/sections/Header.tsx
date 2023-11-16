@@ -2,9 +2,6 @@
 
 import * as React from "react"
 import Link from "next/link"
-import en from "../../public/eng.png";
-import ru from "../../public/ru.png";
-import uz from "../../public/uz.png";
 import { cn } from "@/lib/utils"
 import {
   NavigationMenu,

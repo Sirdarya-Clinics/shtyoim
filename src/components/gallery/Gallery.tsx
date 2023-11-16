@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Suspense } from "react"
 import Direktor from "../../../public/direktor.jpg";
+import dr2 from "../../../public/dr2.jpg";
 export default function Gallery() {
     return (
         <>
@@ -168,8 +169,13 @@ export function Gallery3() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-4 max-w-[720px]">
                     <div>
                         <Image className="hover:opacity-75" src={Direktor} alt={""} width={350} height={350} />
-                        <h3 className=" font-semibold">Xashimov Xusan Achilovich</h3>
+                        <h3 className=" font-semibold">Xudoyberdiyev Sanjar Sobirovich</h3>
                         <p className="text-gray-500">Bosh shifokor</p>
+                    </div>
+                    <div>
+                        <Image className="hover:opacity-75" src={dr2} alt={""} width={350} height={350} />
+                        <h3 className=" font-semibold">Soatmurodov Sharofiddin Nuriddinovich</h3>
+                        <p className="text-gray-500">Davolash ishlari bo&apos;yicha direktor o&apos;rinbosari</p>
                     </div>
                 </div>
             </Suspense>

@@ -70,14 +70,15 @@ export function Footer2() {
                         </ul>
                         <div className="flex flex-col ">
                             <p className="text-white">
-                                Amira Temur ko&apos;chasi, Guliston, Uzbekistan
+                               Guliston shaxar, III-mavze,  IBN-Sino ko&apos;chasi, 13-uy
                             </p>
                             ____________________
                             <p className="text-white">
-                                Tezkor aloqa xizmati
-                                67-310-41-54
+                                67 226-25-24 bemorlar qabulxonasi
                                 <br />
-                                Qabulxona 67-310-41-53
+                               67 226-36-59 fax
+                                <br />
+                                 67 226-49-79 ma&apos;muriyatniki
                             </p>
                         </div>
 

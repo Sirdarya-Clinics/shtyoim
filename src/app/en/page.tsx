@@ -2,12 +2,10 @@
 
 import Image from "next/image"
 import Carusel from "@/components/carusel";
-import Qarori from "../../../public/qarori.jpg";
-import Nizomi from "../../../public/nizomi.jpg";
-import Klinik from "../../../public/klinik.jpg";
 import Narxlar from "../../../public/narxlar.jpg";
 import Link from "next/link";
 import Direktor from "../../../public/direktor.jpg";
+import dr2 from "../../../public/dr2.jpg";
 import { Suspense, useState } from "react";
 import Logo from "@/components/Logo";
 import { ModeToggle } from "@/components/theme/theme-provider";
@@ -115,6 +113,11 @@ function Gallery3() {
             <Image className="hover:opacity-75" src={Direktor} alt={""} width={350} height={350} />
             <h3 className=" font-semibold"> Khashimov Khusan Achilovich</h3>
             <p className="text-gray-500">Chief physician</p>
+          </div>
+           <div>
+            <Image className="hover:opacity-75" src={dr2} alt={""} width={350} height={350} />
+            <h3 className=" font-semibold"> Soatmurodov Sharofiddin Nuriddinovich</h3>
+            <p className="text-gray-500">Deputy director for treatment</p>
           </div>
         </div>
       </Suspense>

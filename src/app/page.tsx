@@ -41,7 +41,7 @@ export default function Home() {
                67 226-25-24 Bemorlar qabulxonasi
             </p>
             <p className=" text-white text-sm text-muted-foreground">
-               67 226-49-79 Ma'muriyat
+               67 226-49-79 Ma&apos;muriyat
             </p>
           </div>
 

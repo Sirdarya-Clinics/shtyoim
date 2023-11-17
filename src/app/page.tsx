@@ -32,16 +32,16 @@ export default function Home() {
           <div className="text-white grid gap-4">
             <Image className="hover:opacity-75" src={Direktor} alt={""} width={300} height={300} />
             <h3 className=" font-semibold">Xudoyberdiyev Sanjar Sobirovich</h3>
-            <p className="text-gray-300">Bosh shifokor</p>
+            <p className="text-gray-300">Direktor</p>
             <h4 className="font-medium  pt-4 leading-none"> Telefon nomerlar </h4>
             <p className=" text-white text-sm text-muted-foreground">
-              67 226-36-59 Fax 
+              67 226-36-59 Fax
             </p>
             <p className=" text-white text-sm text-muted-foreground">
-               67 226-25-24 Bemorlar qabulxonasi
+              67 226-25-24 Bemorlar qabulxonasi
             </p>
             <p className=" text-white text-sm text-muted-foreground">
-               67 226-49-79 Ma&apos;muriyat
+              67 226-49-79 Ma&apos;muriyat
             </p>
           </div>
 

@@ -6,6 +6,8 @@ import Narxlar from "../../../public/narxlar.jpg";
 import Link from "next/link";
 import Direktor from "../../../public/direktor.jpg";
 import dr2 from "../../../public/dr2.jpg";
+import dr3 from "../../../public/dr_yordam.jpg";
+import dr4 from "../../../public/dr_yordam2.jpg";
 import { Suspense, useState } from "react";
 import Logo from "@/components/Logo";
 import { ModeToggle } from "@/components/theme/theme-provider";
@@ -112,12 +114,22 @@ function Gallery3() {
           <div>
             <Image className="hover:opacity-75" src={Direktor} alt={""} width={350} height={350} />
             <h3 className=" font-semibold"> Khashimov Khusan Achilovich</h3>
-            <p className="text-gray-500">Chief physician</p>
+            <p className="text-gray-500">Direktor</p>
           </div>
-           <div>
+          <div>
             <Image className="hover:opacity-75" src={dr2} alt={""} width={350} height={350} />
             <h3 className=" font-semibold"> Soatmurodov Sharofiddin Nuriddinovich</h3>
             <p className="text-gray-500">Deputy director for treatment</p>
+          </div>
+          <div>
+            <Image className="hover:opacity-75" src={dr3} alt={""} width={350} height={350} />
+            <h3 className=" font-semibold">Yariev Аlisher Аlijonovich</h3>
+            <p className="text-gray-500">Deputy director for scientific affairs and new technologies</p>
+          </div>
+          <div>
+            <Image className="hover:opacity-75" src={dr4} alt={""} width={350} height={350} />
+            <h3 className=" font-semibold">Soatmurodov Sharofiddin Nuriddinovich</h3>
+            <p className="text-gray-500">Deputy Director of Emergency Situations</p>
           </div>
         </div>
       </Suspense>
@@ -146,18 +158,18 @@ export default function Home() {
           <div className="text-white grid gap-4">
             <Image className="hover:opacity-75" src={Direktor} alt={""} width={300} height={300} />
             <h3 className=" font-semibold">
-                Khudoyberdiyev Sanjar Sobirovich
+              Khudoyberdiyev Sanjar Sobirovich
             </h3>
-            <p className="text-gray-300">Chief physician</p>
+            <p className="text-gray-300">Direktor</p>
             <h4 className="font-medium  pt-4 leading-none"> Contacts </h4>
             <p className=" text-white text-sm text-muted-foreground">
-              67 226-36-59 Fax 
+              67 226-36-59 Fax
             </p>
             <p className=" text-white text-sm text-muted-foreground">
-               67 226-25-24 Reception
+              67 226-25-24 Reception
             </p>
             <p className=" text-white text-sm text-muted-foreground">
-               67 226-49-79 Administration
+              67 226-49-79 Administration
             </p>
           </div>
 
@@ -181,7 +193,7 @@ export default function Home() {
           <Link target="_blank" rel="noopener noreferrer" download href='https://drive.google.com/file/d/1QC_WWqwTtJ1R_q54mWN-ie_7YVKIBWW5/view?usp=drive_link' title="Organization decision">
             <Image src={Narxlar} alt={"Organization decision"} width={100} height={100} />
           </Link>
-          
+
         </section>
 
       </main>
@@ -232,7 +244,7 @@ function Footer() {
               </p>
               <p className="text-white">
 
-                67 226-36-59 fax 
+                67 226-36-59 fax
               </p>
               <p className="text-white">
 

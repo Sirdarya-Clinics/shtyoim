@@ -2,6 +2,8 @@ import Image from "next/image"
 import { Suspense } from "react"
 import Direktor from "../../../public/direktor.jpg";
 import dr2 from "../../../public/dr2.jpg";
+import dr3 from "../../../public/dr_yordam.jpg";
+import dr4 from "../../../public/dr_yordam2.jpg";
 export default function Gallery() {
     return (
         <>
@@ -170,12 +172,22 @@ export function Gallery3() {
                     <div>
                         <Image className="hover:opacity-75" src={Direktor} alt={""} width={350} height={350} />
                         <h3 className=" font-semibold">Xudoyberdiyev Sanjar Sobirovich</h3>
-                        <p className="text-gray-500">Bosh shifokor</p>
+                        <p className="text-gray-500">Direktor</p>
                     </div>
                     <div>
                         <Image className="hover:opacity-75" src={dr2} alt={""} width={350} height={350} />
                         <h3 className=" font-semibold">Soatmurodov Sharofiddin Nuriddinovich</h3>
                         <p className="text-gray-500">Davolash ishlari bo&apos;yicha direktor o&apos;rinbosari</p>
+                    </div>
+                    <div>
+                        <Image className="hover:opacity-75" src={dr3} alt={""} width={350} height={350} />
+                        <h3 className=" font-semibold">Yariev Аlisher Аlijonovich</h3>
+                        <p className="text-gray-500">Ilmiy ishlar va yangi tenologiyalar bo&apos;yicha direktor o&apos;rinbosari</p>
+                    </div>
+                    <div>
+                        <Image className="hover:opacity-75" src={dr4} alt={""} width={350} height={350} />
+                        <h3 className=" font-semibold">Soatmurodov Sharofiddin Nuriddinovich</h3>
+                        <p className="text-gray-500">Favqulotda vaziyatlar bo&apos;yicha direktor o&apos;rinbosari</p>
                     </div>
                 </div>
             </Suspense>

@@ -5,7 +5,9 @@ import Carusel from "@/components/carusel";
 import Narxlar from "../../../public/narxlar.jpg";
 import Link from "next/link";
 import Direktor from "../../../public/direktor.jpg";
-import Dr2 from "../../../public/dr2.jpg";
+import dr2 from "../../../public/dr2.jpg";
+import dr3 from "../../../public/dr_yordam.jpg";
+import dr4 from "../../../public/dr_yordam2.jpg";
 import { Suspense, useState } from "react";
 import Logo from "@/components/Logo";
 import { ModeToggle } from "@/components/theme/theme-provider";
@@ -112,14 +114,25 @@ function Gallery3() {
           <div>
             <Image className="hover:opacity-75" src={Direktor} alt={""} width={350} height={350} />
             <h3 className=" font-semibold">Худойбердиев Санжар Собирович</h3>
-            <p className="text-gray-500">Главный врач</p>
+            <p className="text-gray-500">Директор</p>
           </div>
           <div>
-            <Image className="hover:opacity-75" src={Dr2} alt={""} width={350} height={350} />
+            <Image className="hover:opacity-75" src={dr2} alt={""} width={350} height={350} />
             <h3 className=" font-semibold">Соатмуродов Шарофиддин Нуриддинович</h3>
             <p className="text-gray-500">Заместитель директора по лечению</p>
           </div>
+          <div>
+            <Image className="hover:opacity-75" src={dr3} alt={""} width={150} height={150} />
+            <h3 className=" font-semibold">Яриев Алишер Алижонович</h3>
+            <p className="text-gray-500">Заместитель директора по научной работе и новым технологиям</p>
+          </div>
+          <div>
+            <Image className="hover:opacity-75" src={dr4} alt={""} width={200} height={250} />
+            <h3 className=" font-semibold">Соатмуродов Шарофиддин Нуриддинович</h3>
+            <p className="text-gray-500">Заместитель директора по чрезвычайным ситуациям</p>
+          </div>
         </div>
+
       </Suspense>
     </section>
   )
@@ -146,16 +159,16 @@ export default function Home() {
           <div className="text-white grid gap-4">
             <Image className="hover:opacity-75" src={Direktor} alt={""} width={300} height={300} />
             <h3 className=" font-semibold">Худойбердиев Санжар Собирович</h3>
-            <p className="text-gray-300">Главный врач</p>
+            <p className="text-gray-300">Директор</p>
             <h4 className="font-medium  pt-4 leading-none"> Приемная </h4>
             <p className=" text-white text-sm text-muted-foreground">
-              67 226-36-59 Факс 
+              67 226-36-59 Факс
             </p>
             <p className=" text-white text-sm text-muted-foreground">
-               67 226-25-24 Приемная для пациентов
+              67 226-25-24 Приемная для пациентов
             </p>
             <p className=" text-white text-sm text-muted-foreground">
-               67 226-49-79 администрация
+              67 226-49-79 администрация
             </p>
           </div>
 
@@ -179,7 +192,7 @@ export default function Home() {
           <Link target="_blank" rel="noopener noreferrer" download href='https://drive.google.com/file/d/1QC_WWqwTtJ1R_q54mWN-ie_7YVKIBWW5/view?usp=drive_link' title="цены">
             <Image src={Narxlar} alt={"цены"} width={100} height={100} />
           </Link>
-          
+
         </section>
 
       </main>
@@ -221,19 +234,19 @@ function Footer() {
             </ul>
             <div className="flex flex-col ">
               <p className="text-white">
-               улица ИБН-Сино, 13, III квартал, город Гулистан
+                улица ИБН-Сино, 13, III квартал, город Гулистан
 
               </p>
-          <h4 className="font-medium text-white  pt-4 leading-none"> Приемная </h4>
+              <h4 className="font-medium text-white  pt-4 leading-none"> Приемная </h4>
               <p className=" text-white text-sm text-muted-foreground">
-              67 226-36-59 Факс 
-            </p>
-            <p className=" text-white text-sm text-muted-foreground">
-               67 226-25-24 Приемная для пациентов
-            </p>
-            <p className=" text-white text-sm text-muted-foreground">
-               67 226-49-79 администрация
-            </p>
+                67 226-36-59 Факс
+              </p>
+              <p className=" text-white text-sm text-muted-foreground">
+                67 226-25-24 Приемная для пациентов
+              </p>
+              <p className=" text-white text-sm text-muted-foreground">
+                67 226-49-79 администрация
+              </p>
             </div>
 
           </div>

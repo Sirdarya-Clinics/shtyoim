@@ -60,7 +60,7 @@ export default function Home() {
         <br/>
         <Link href="/post1">
         <ul>
-        <li>❇️ Davlat xaridlari sohasida katta o'zgarishlar</li>
+        <li>❇️ Davlat xaridlari sohasida katta o&apos;zgarishlar</li>
         </ul>
         </Link>
         <Questions />

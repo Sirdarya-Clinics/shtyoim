@@ -76,9 +76,9 @@ export function Footer2() {
                             <p className="text-white">
                                 67 226-25-24 bemorlar qabulxonasi
                                 <br />
-                               67 226-36-59 fax
+                               67 226-36-59 faks
                                 <br />
-                                 67 226-49-79 ma&apos;muriyatniki
+                                 67 226-49-79 ma&apos;muriyat
                             </p>
                         </div>
 

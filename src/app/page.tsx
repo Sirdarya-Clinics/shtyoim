@@ -54,7 +54,15 @@ export default function Home() {
         <About />
         <Gallery />
         {/* <Gallery2 /> */}
-
+        <br/>
+        Yangiliklar
+        <br/>
+        <br/>
+        <Link href="/post1">
+        <ul>
+        <li>❇️ Davlat xaridlari sohasida katta o'zgarishlar</li>
+        </ul>
+        </Link>
         <Questions />
 
 
